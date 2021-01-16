@@ -1,0 +1,41 @@
+db = {}
+
+
+while True:
+	 	a = input("add hero or view? ")
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	if a == "add":
+	 		rn = int(input("put your hero fav rank no ;) "))
+	 		hn = input("put the hero name ")
+	 		
+	 		db[rn] = hn
+	 		
+	 	elif a == "view":
+	 			
+	 		  rn = int(input("what the rank of hero"))
+	 		  if not rn in db:
+	 		  		print("you dont have set hero in this rank")
+	 		  else:
+	 		  			print("your no.")
+	 		  			print(rn)
+	 		  			print("hero is %s" %db[rn])
+	 	elif a == "quit":
+	         print('ok as you wish :)')
+	         print("btw i created this database in january 16, 2021 at philippines")
+	         print("thanks for using Celtrix Tirona Panol Database Code Sample")
+	         print("this is the first database i make i wish it was help you")
+	         print("in first it is very hard to build")
+	         print("but practice and practice to make it perfect")
+	         break
+	 	else:
+	     		print("wrong choices here the data")
+	     		print(db)
+	 	
+        	
+
+	
+		
